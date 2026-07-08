@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&family=Alegreya+Sans:wght@300;400;500;700&family=Grape+Nuts&family=Abril+Fatface&family=Allison&display=swap" rel="stylesheet">
+</head>
+<body>
+<section class="top">
+
+    <div class="container top-container">
+                <div class="top-icons">
+            <div class="social">
+                <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.84586 2H16.2953C19.5142 2 22.1295 4.6 22.1295 7.8V16.2C22.1295 17.7383 21.5148 19.2135 20.4207 20.3012C19.3266 21.3889 17.8426 22 16.2953 22H7.84586C4.62702 22 2.01172 19.4 2.01172 16.2V7.8C2.01172 6.26174 2.62639 4.78649 3.7205 3.69878C4.81461 2.61107 6.29855 2 7.84586 2ZM7.64468 4C6.68428 4 5.76322 4.37928 5.08412 5.05442C4.40501 5.72955 4.02349 6.64522 4.02349 7.6V16.4C4.02349 18.39 5.64297 20 7.64468 20H16.4965C17.4569 20 18.378 19.6207 19.0571 18.9456C19.7362 18.2705 20.1177 17.3548 20.1177 16.4V7.6C20.1177 5.61 18.4982 4 16.4965 4H7.64468ZM17.3515 5.5C17.685 5.5 18.0048 5.6317 18.2406 5.86612C18.4764 6.10054 18.6089 6.41848 18.6089 6.75C18.6089 7.08152 18.4764 7.39946 18.2406 7.63388C18.0048 7.8683 17.685 8 17.3515 8C17.018 8 16.6982 7.8683 16.4624 7.63388C16.2266 7.39946 16.0941 7.08152 16.0941 6.75C16.0941 6.41848 16.2266 6.10054 16.4624 5.86612C16.6982 5.6317 17.018 5.5 17.3515 5.5ZM12.0706 7C13.4045 7 14.6837 7.52678 15.6269 8.46447C16.5701 9.40215 17.1 10.6739 17.1 12C17.1 13.3261 16.5701 14.5979 15.6269 15.5355C14.6837 16.4732 13.4045 17 12.0706 17C10.7367 17 9.45744 16.4732 8.51424 15.5355C7.57104 14.5979 7.04115 13.3261 7.04115 12C7.04115 10.6739 7.57104 9.40215 8.51424 8.46447C9.45744 7.52678 10.7367 7 12.0706 7ZM12.0706 9C11.2703 9 10.5027 9.31607 9.93678 9.87868C9.37086 10.4413 9.05293 11.2044 9.05293 12C9.05293 12.7956 9.37086 13.5587 9.93678 14.1213C10.5027 14.6839 11.2703 15 12.0706 15C12.8709 15 13.6385 14.6839 14.2044 14.1213C14.7703 13.5587 15.0882 12.7956 15.0882 12C15.0882 11.2044 14.7703 10.4413 14.2044 9.87868C13.6385 9.31607 12.8709 9 12.0706 9Z" fill="white" />
+                </svg>
+                <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20.0302 5.32189C20.2199 5.32347 20.4056 5.37661 20.5671 5.47557C20.7287 5.57452 20.8599 5.71552 20.9466 5.8833C21.0333 6.05108 21.0722 6.23925 21.0591 6.42743C21.046 6.6156 20.9813 6.79663 20.8721 6.95089L19.824 8.43189C19.7596 13.5179 18.0486 16.9709 14.7382 18.6959C13.1607 19.4753 11.4178 19.8659 9.65646 19.8349C7.47858 19.8847 5.32645 19.3588 3.41997 18.3109C3.29172 18.2252 3.1926 18.1029 3.13567 17.9601C3.07875 17.8173 3.06669 17.6607 3.1011 17.5109C3.13331 17.3589 3.21112 17.2202 3.32425 17.1131C3.43739 17.006 3.58054 16.9355 3.73481 16.9109C5.01555 16.7331 6.27673 16.4364 7.50185 16.0249C2.01172 13.4999 3.20873 7.82389 3.73179 6.08089C3.78278 5.90785 3.87866 5.75118 4.00981 5.62662C4.14095 5.50205 4.30274 5.41397 4.47895 5.37122C4.65516 5.32846 4.83958 5.33254 5.0137 5.38303C5.18782 5.43352 5.34552 5.52866 5.47097 5.65889C7.07801 7.30512 9.20877 8.34748 11.5013 8.60889C11.4606 7.99643 11.5558 7.38257 11.7802 6.81075C12.0046 6.23893 12.3527 5.72314 12.7999 5.29989C13.5745 4.56906 14.6027 4.16329 15.6707 4.16702C16.7386 4.17074 17.764 4.58367 18.5334 5.31989L20.0302 5.32189ZM4.54756 17.7939C6.42053 18.6659 10.8102 19.6129 14.2715 17.8099C17.2439 16.2609 18.7738 13.0779 18.8191 8.34889C18.8211 8.19252 18.8709 8.04046 18.9619 7.91289L20.0493 6.37489L20.008 6.32189C19.487 6.31489 18.973 6.30789 18.4489 6.32189C18.2446 6.31724 18.0489 6.23866 17.8987 6.10089C17.3197 5.51738 16.5335 5.18296 15.7091 5.1695C14.8847 5.15604 14.0879 5.4646 13.4899 6.02889C13.1058 6.39206 12.8187 6.84458 12.6545 7.34563C12.4903 7.84668 12.4542 8.38049 12.5494 8.89889C12.5669 8.99547 12.5621 9.09474 12.5352 9.18917C12.5084 9.2836 12.4602 9.37071 12.3945 9.44389C12.3315 9.51771 12.2512 9.57502 12.1607 9.61076C12.0702 9.64651 11.9722 9.6596 11.8755 9.64889C9.17285 9.4614 6.63518 8.28795 4.74975 6.35389C4.0758 8.43189 3.2208 13.4479 8.64152 15.4189C8.7556 15.4596 8.85561 15.5318 8.92974 15.6272C9.00388 15.7225 9.04907 15.8369 9.05997 15.9569C9.07224 16.0751 9.05037 16.1943 8.99692 16.3006C8.94348 16.4068 8.86067 16.4957 8.75821 16.5569C7.43359 17.1991 6.01052 17.6171 4.54756 17.7939Z" fill="white" />
+                </svg>
+                <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17.1 2H14.0824C12.7485 2 11.4692 2.52678 10.526 3.46447C9.58282 4.40215 9.05294 5.67392 9.05294 7V10H6.03528V14H9.05294V22H13.0765V14H16.0941L17.1 10H13.0765V7C13.0765 6.73478 13.1825 6.48043 13.3711 6.29289C13.5597 6.10536 13.8156 6 14.0824 6H17.1V2Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </div>
+            <div class="contacts">
+                <div class="contacts__phone">
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.7873 13.5C11.1653 13.5 9.58434 13.1405 8.04433 12.4215C6.50381 11.703 5.13958 10.753 3.95163 9.5715C2.76317 8.3905 1.80758 7.03425 1.08485 5.50275C0.361616 3.97175 0 2.4 0 0.7875C0 0.5625 0.0754415 0.375 0.226324 0.225C0.377207 0.075 0.565811 0 0.792136 0H3.84752C4.02355 0 4.18072 0.0562499 4.31903 0.16875C4.45734 0.28125 4.53906 0.425 4.56421 0.6L5.05458 3.225C5.07973 3.4 5.07671 3.55925 5.04553 3.70275C5.01384 3.84675 4.94142 3.975 4.82826 4.0875L3.01766 5.925C3.54575 6.825 4.20586 7.66875 4.998 8.45625C5.79014 9.24375 6.664 9.925 7.61959 10.5L9.39247 8.7375C9.50563 8.625 9.65349 8.5405 9.83606 8.484C10.0181 8.428 10.1972 8.4125 10.3732 8.4375L12.9759 8.9625C13.152 9 13.2966 9.08425 13.4097 9.21525C13.5229 9.34675 13.5795 9.5 13.5795 9.675V12.7125C13.5795 12.9375 13.504 13.125 13.3531 13.275C13.2023 13.425 13.0137 13.5 12.7873 13.5Z" fill="white" />
+                    </svg>
+                    <span>+1 334 445 623</span>
+                </div>
+                <div class="contacts__email">
+                    <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.5972 4.5C16.5972 3.675 15.9182 3 15.0883 3H3.01768C2.18782 3 1.50885 3.675 1.50885 4.5V13.5C1.50885 14.325 2.18782 15 3.01768 15H15.0883C15.9182 15 16.5972 14.325 16.5972 13.5V4.5ZM15.0883 4.5L9.053 8.25L3.01768 4.5H15.0883ZM15.0883 13.5H3.01768V6L9.053 9.75L15.0883 6V13.5Z" fill="white" />
+                    </svg>
+                    <span>contact@startravels.com</span>
+                </div>
+            </div>
+        </div>
+        <nav class="nav-links">
+            <ul class="nav-list">
+                <li class="nav-item">Home</li>
+                <li class="nav-item">Packages</li>
+                <li class="nav-item">Tours</li>
+                <li class="nav-item">About Us</li>
+                <li class="nav-item">Contact</li>
+            </ul>
+        </nav>
+        <div class="title">
+            <div class="title-top">Your Dream Vacation Awaits</div>
+            <div class="title-bottom">Explore the World with us.</div>
+        </div>
+        <div class="top-booking">
+            <div class="choose">
+                <div class="choose__item">FLIGHTS</div>
+                <div class="choose__item">HOTELS</div>
+                <div class="choose__item">TOURS</div>
+            </div>
+            <div class="details">
+                <div class="details__item">
+                    <div class="details__item-element">
+                        <svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4 5.6051C4.275 5.6051 4.5105 5.49524 4.7065 5.27552C4.90217 5.05617 5 4.79236 5 4.48408C5 4.1758 4.90217 3.9118 4.7065 3.69208C4.5105 3.47273 4.275 3.36306 4 3.36306C3.725 3.36306 3.48967 3.47273 3.294 3.69208C3.098 3.9118 3 4.1758 3 4.48408C3 4.79236 3.098 5.05617 3.294 5.27552C3.48967 5.49524 3.725 5.6051 4 5.6051ZM4 11C3.93333 11 3.86667 10.986 3.8 10.958C3.73333 10.9299 3.675 10.8926 3.625 10.8459C2.40833 9.64076 1.5 8.52217 0.9 7.49009C0.3 6.45763 0 5.49299 0 4.59618C0 3.1949 0.402167 2.07856 1.2065 1.24713C2.0105 0.415711 2.94167 0 4 0C5.05833 0 5.9895 0.415711 6.7935 1.24713C7.59783 2.07856 8 3.1949 8 4.59618C8 5.49299 7.7 6.45763 7.1 7.49009C6.5 8.52217 5.59167 9.64076 4.375 10.8459C4.325 10.8926 4.26667 10.9299 4.2 10.958C4.13333 10.986 4.06667 11 4 11Z" fill="#4B4B4B" />
+                        </svg>
+                        FORM
+                    </div>
+                    <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.21748 7.17725L0.17627 0.177246" stroke="black" stroke-width="0.5" />
+                    <path d="M7.37364 7.33222L15.1269 1.12028L14.8145 0.730311L7.06121 6.94225L7.37364 7.33222Z" fill="black" />
+                    </svg>
+                </div>
+                  <div class="details__item">
+                    <div class="details__item-element">
+                        <svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4 5.6051C4.275 5.6051 4.5105 5.49524 4.7065 5.27552C4.90217 5.05617 5 4.79236 5 4.48408C5 4.1758 4.90217 3.9118 4.7065 3.69208C4.5105 3.47273 4.275 3.36306 4 3.36306C3.725 3.36306 3.48967 3.47273 3.294 3.69208C3.098 3.9118 3 4.1758 3 4.48408C3 4.79236 3.098 5.05617 3.294 5.27552C3.48967 5.49524 3.725 5.6051 4 5.6051ZM4 11C3.93333 11 3.86667 10.986 3.8 10.958C3.73333 10.9299 3.675 10.8926 3.625 10.8459C2.40833 9.64076 1.5 8.52217 0.9 7.49009C0.3 6.45763 0 5.49299 0 4.59618C0 3.1949 0.402167 2.07856 1.2065 1.24713C2.0105 0.415711 2.94167 0 4 0C5.05833 0 5.9895 0.415711 6.7935 1.24713C7.59783 2.07856 8 3.1949 8 4.59618C8 5.49299 7.7 6.45763 7.1 7.49009C6.5 8.52217 5.59167 9.64076 4.375 10.8459C4.325 10.8926 4.26667 10.9299 4.2 10.958C4.13333 10.986 4.06667 11 4 11Z" fill="#4B4B4B" />
+                        </svg>
+                        TO
+                    </div>
+                    <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.21748 7.17725L0.17627 0.177246" stroke="black" stroke-width="0.5" />
+                    <path d="M7.37364 7.33222L15.1269 1.12028L14.8145 0.730311L7.06121 6.94225L7.37364 7.33222Z" fill="black" />
+                    </svg>
+                </div>
+                  <div class="details__item">
+                    <div class="details__item-element">
+                      Departure Date
+                    </div>
+                    <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.5 1.27826H8.7V0.319565C8.7 0.234811 8.66839 0.153529 8.61213 0.0935985C8.55587 0.0336684 8.47957 0 8.4 0C8.32044 0 8.24413 0.0336684 8.18787 0.0935985C8.13161 0.153529 8.1 0.234811 8.1 0.319565V1.27826H3.9V0.319565C3.9 0.234811 3.86839 0.153529 3.81213 0.0935985C3.75587 0.0336684 3.67957 0 3.6 0C3.52044 0 3.44413 0.0336684 3.38787 0.0935985C3.33161 0.153529 3.3 0.234811 3.3 0.319565V1.27826H1.5C1.10232 1.27877 0.721067 1.44727 0.439866 1.74681C0.158665 2.04635 0.000476357 2.45247 0 2.87609V11.1848C0.000476357 11.6084 0.158665 12.0145 0.439866 12.3141C0.721067 12.6136 1.10232 12.7821 1.5 12.7826H10.5C10.8977 12.7823 11.2791 12.6138 11.5603 12.3142C11.8415 12.0147 11.9997 11.6084 12 11.1848V2.87609C11.9997 2.45242 11.8415 2.0462 11.5603 1.74663C11.2791 1.44705 10.8977 1.2786 10.5 1.27826ZM11.4 11.1848C11.4 11.439 11.3052 11.6829 11.1364 11.8627C10.9676 12.0425 10.7387 12.1435 10.5 12.1435H1.5C1.26131 12.1435 1.03239 12.0425 0.863604 11.8627C0.694821 11.6829 0.6 11.439 0.6 11.1848V5.75217H11.4V11.1848ZM11.4 5.11304H0.6V2.87609C0.6 2.34689 1.002 1.91739 1.5 1.91739H3.3V2.87609C3.3 2.96084 3.33161 3.04212 3.38787 3.10205C3.44413 3.16198 3.52044 3.19565 3.6 3.19565C3.67957 3.19565 3.75587 3.16198 3.81213 3.10205C3.86839 3.04212 3.9 2.96084 3.9 2.87609V1.91739H8.1V2.87609C8.1 2.96084 8.13161 3.04212 8.18787 3.10205C8.24413 3.16198 8.32044 3.19565 8.4 3.19565C8.47957 3.19565 8.55587 3.16198 8.61213 3.10205C8.66839 3.04212 8.7 2.96084 8.7 2.87609V1.91739H10.5C10.7387 1.91739 10.9676 2.0184 11.1364 2.19819C11.3052 2.37798 11.4 2.62182 11.4 2.87609V5.11304Z" fill="black" />
+                    </svg>
+                </div>
+                  <div class="details__item">
+                    <div class="details__item-element">
+                      Return Date
+                    </div>
+                    <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.5 1.27826H8.7V0.319565C8.7 0.234811 8.66839 0.153529 8.61213 0.0935985C8.55587 0.0336684 8.47957 0 8.4 0C8.32044 0 8.24413 0.0336684 8.18787 0.0935985C8.13161 0.153529 8.1 0.234811 8.1 0.319565V1.27826H3.9V0.319565C3.9 0.234811 3.86839 0.153529 3.81213 0.0935985C3.75587 0.0336684 3.67957 0 3.6 0C3.52044 0 3.44413 0.0336684 3.38787 0.0935985C3.33161 0.153529 3.3 0.234811 3.3 0.319565V1.27826H1.5C1.10232 1.27877 0.721067 1.44727 0.439866 1.74681C0.158665 2.04635 0.000476357 2.45247 0 2.87609V11.1848C0.000476357 11.6084 0.158665 12.0145 0.439866 12.3141C0.721067 12.6136 1.10232 12.7821 1.5 12.7826H10.5C10.8977 12.7823 11.2791 12.6138 11.5603 12.3142C11.8415 12.0147 11.9997 11.6084 12 11.1848V2.87609C11.9997 2.45242 11.8415 2.0462 11.5603 1.74663C11.2791 1.44705 10.8977 1.2786 10.5 1.27826ZM11.4 11.1848C11.4 11.439 11.3052 11.6829 11.1364 11.8627C10.9676 12.0425 10.7387 12.1435 10.5 12.1435H1.5C1.26131 12.1435 1.03239 12.0425 0.863604 11.8627C0.694821 11.6829 0.6 11.439 0.6 11.1848V5.75217H11.4V11.1848ZM11.4 5.11304H0.6V2.87609C0.6 2.34689 1.002 1.91739 1.5 1.91739H3.3V2.87609C3.3 2.96084 3.33161 3.04212 3.38787 3.10205C3.44413 3.16198 3.52044 3.19565 3.6 3.19565C3.67957 3.19565 3.75587 3.16198 3.81213 3.10205C3.86839 3.04212 3.9 2.96084 3.9 2.87609V1.91739H8.1V2.87609C8.1 2.96084 8.13161 3.04212 8.18787 3.10205C8.24413 3.16198 8.32044 3.19565 8.4 3.19565C8.47957 3.19565 8.55587 3.16198 8.61213 3.10205C8.66839 3.04212 8.7 2.96084 8.7 2.87609V1.91739H10.5C10.7387 1.91739 10.9676 2.0184 11.1364 2.19819C11.3052 2.37798 11.4 2.62182 11.4 2.87609V5.11304Z" fill="black" />
+                    </svg>
+                </div>
+                  <div class="details__item">
+                    <div class="details__item-element">
+                        <svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4 5.6051C4.275 5.6051 4.5105 5.49524 4.7065 5.27552C4.90217 5.05617 5 4.79236 5 4.48408C5 4.1758 4.90217 3.9118 4.7065 3.69208C4.5105 3.47273 4.275 3.36306 4 3.36306C3.725 3.36306 3.48967 3.47273 3.294 3.69208C3.098 3.9118 3 4.1758 3 4.48408C3 4.79236 3.098 5.05617 3.294 5.27552C3.48967 5.49524 3.725 5.6051 4 5.6051ZM4 11C3.93333 11 3.86667 10.986 3.8 10.958C3.73333 10.9299 3.675 10.8926 3.625 10.8459C2.40833 9.64076 1.5 8.52217 0.9 7.49009C0.3 6.45763 0 5.49299 0 4.59618C0 3.1949 0.402167 2.07856 1.2065 1.24713C2.0105 0.415711 2.94167 0 4 0C5.05833 0 5.9895 0.415711 6.7935 1.24713C7.59783 2.07856 8 3.1949 8 4.59618C8 5.49299 7.7 6.45763 7.1 7.49009C6.5 8.52217 5.59167 9.64076 4.375 10.8459C4.325 10.8926 4.26667 10.9299 4.2 10.958C4.13333 10.986 4.06667 11 4 11Z" fill="#4B4B4B" />
+                        </svg>
+                        Traveller(s), Class
+                    </div>
+                    <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.21748 7.17725L0.17627 0.177246" stroke="black" stroke-width="0.5" />
+                    <path d="M7.37364 7.33222L15.1269 1.12028L14.8145 0.730311L7.06121 6.94225L7.37364 7.33222Z" fill="black" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="dist">
+    <div class="container distination">
+        <div class="distination__title">Popular Destinations</div>
+        <div class="distination__block">
+            <div class="distination__item">
+                <img src="./image/venice.png">
+                <div class="distination__item-descript">
+                    <div class="city">
+                        <div class="item-title">Venice</div>
+                        <div class="item-descript">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+                    </div>
+                    <div class="distination__item-cost">
+                    <span class="cost">$249</span>
+                    <span class="person"> per Person</span>
+                    </div>
+                </div>              
+            </div>
+
+              <div class="distination__item">
+                <img src="./image/sanpaolo.png">
+                <div class="distination__item-descript">
+                    <div class="city">
+                        <div class="item-title">San-Paolo</div>
+                        <div class="item-descript">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+                    </div>
+                    <div class="distination__item-cost">
+                    <span class="cost">$249</span>
+                    <span class="person"> per Person</span>
+                    </div>
+                </div>
+              
+            </div>
+            <div class="distination__item">
+                <img src="./image/barbados.png">
+                <div class="distination__item-descript">
+                    <div class="city">
+                        <div class="item-title">Barbados</div>
+                        <div class="item-descript">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+                    </div>
+                    <div class="distination__item-cost">
+                    <span class="cost">$249</span>
+                    <span class="person"> per Person</span>
+                    </div>
+                </div>              
+            </div>
+                 <div class="distination__item">
+                <img src="./image/cyprys.png">
+                <div class="distination__item-descript">
+                    <div class="city">
+                        <div class="item-title">Cyprus</div>
+                        <div class="item-descript">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+                    </div>
+                    <div class="distination__item-cost">
+                    <span class="cost">$249</span>
+                    <span class="person"> per Person</span>
+                    </div>
+                </div>              
+            </div>
+        </div>
+    </div>
+</section>
+<section class="video">
+    <div class="container video-container">
+        <img class="video-image" src="./image/video.png">
+        <svg class="player" width="117" height="117" viewBox="0 0 117 117" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="58.5" cy="58.5" r="57" stroke="white" stroke-opacity="0.9" stroke-width="3" />
+        </svg>
+       <div class="an"></div>
+       <div class="bn"></div>
+    </div>
+</section>
+<section class="ask">
+    <div class="container question-container">
+        <div class="question-title">Why Us</div>
+        <div class="qustion-descript">
+            <div class="qustion-descript-item">
+                <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.5 23.625C19.0919 23.625 23.625 19.0919 23.625 13.5C23.625 7.90812 19.0919 3.375 13.5 3.375C7.90812 3.375 3.375 7.90812 3.375 13.5C3.375 19.0919 7.90812 23.625 13.5 23.625Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M13.5 22.5L21.375 9H5.625L13.5 22.5Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <span class="question-name">GUARANTEE</span>
+                <span class="question-descript">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
+            </div>
+              <div class="qustion-descript-item">
+               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 8L15 13.2L18 10.5L17.3 14H6.7L6 10.5L9 13.2L12 8ZM12 4L8.5 10L3 5L5 16H19L21 5L15.5 10L12 4ZM19 18H5V19C5 19.6 5.4 20 6 20H18C18.6 20 19 19.6 19 19V18Z" fill="black" />
+                </svg>
+                <span class="question-name">SERVICE</span>
+                <span class="question-descript">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
+            </div>
+              <div class="qustion-descript-item">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 19.88V22L18.2 20.83L13.41 11.83C14.0665 11.6243 14.6727 11.2836 15.19 10.83M15 7C15 7.79565 14.6839 8.55871 14.1213 9.12132C13.5587 9.68393 12.7956 10 12 10C11.8535 10.0099 11.7065 10.0099 11.56 10L5.79998 20.83L3.99998 22V19.88L9.78998 9C9.40533 8.57 9.15284 8.03821 9.06275 7.46836C8.97265 6.8985 9.04879 6.31476 9.28202 5.78708C9.51526 5.25939 9.89571 4.81015 10.3778 4.49319C10.8598 4.17623 11.4231 4.00499 12 4V2C12.2652 2 12.5195 2.10536 12.7071 2.29289C12.8946 2.48043 13 2.73478 13 3V4.18C13.5835 4.38631 14.089 4.76807 14.447 5.27293C14.8051 5.7778 14.9982 6.38106 15 7ZM13 7C13 6.80222 12.9413 6.60888 12.8314 6.44443C12.7216 6.27998 12.5654 6.15181 12.3827 6.07612C12.1999 6.00043 11.9989 5.98063 11.8049 6.01921C11.6109 6.0578 11.4327 6.15304 11.2929 6.29289C11.153 6.43275 11.0578 6.61093 11.0192 6.80491C10.9806 6.99889 11.0004 7.19996 11.0761 7.38268C11.1518 7.56541 11.28 7.72159 11.4444 7.83147C11.6089 7.94135 11.8022 8 12 8C12.2652 8 12.5195 7.89464 12.7071 7.70711C12.8946 7.51957 13 7.26522 13 7ZM4.21998 10L5.99998 11.8L4.55998 14.56L2.09998 12.1M12 17.76L10.5 16.25L8.99998 19L12 22L15 19L13.53 16.23M19.78 10L18 11.8L19.5 14.56L21.9 12.1L19.78 10Z" fill="black" />
+                </svg>
+                <span class="question-name">EXPERIENCE</span>
+                <span class="question-descript">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="adventure">
+    <div class="adventure-title">
+            Have an Adventure Today
+        </div>
+    <div class="container adventure-container">
+        
+        <div class="adventure-left">
+            <div class="adventure-left-descript">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit 
+            </div>
+        </div>
+        <div class="adventure-rigth-elements">
+        <div class="adventure-rigth one">
+                <div class="adventure-rigth-item">
+                    <div class="adventure-rigth-descript">
+                        <div class="adventure-rigth-descript_title">Sailing</div>
+                        <div class="adventure-rigth-descript_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Nunc vulputate libero et velit </div>
+                    </div>
+                </div>
+        </div>
+        <div class="adventure-rigth two">
+                  <div class="adventure-rigth-item">
+                    <div class="adventure-rigth-descript">
+                        <div class="adventure-rigth-descript_title">Camping</div>
+                        <div class="adventure-rigth-descript_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Nunc vulputate libero et velit </div>
+                    </div>
+                </div>
+        </div>
+          <div class="adventure-rigth three">
+                <div class="adventure-rigth-item">
+                    <div class="adventure-rigth-descript">
+                        <div class="adventure-rigth-descript_title">Hiking</div>
+                        <div class="adventure-rigth-descript_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Nunc vulputate libero et velit </div>
+                    </div>
+                </div>
+        </div>
+          <div class="adventure-rigth four">
+                <div class="adventure-rigth-item">
+                    <div class="adventure-rigth-descript">
+                        <div class="adventure-rigth-descript_title">Scuba Diving</div>
+                        <div class="adventure-rigth-descript_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Nunc vulputate libero et velit </div>
+                    </div>
+                </div>
+        </div>
+
+        </div>
+    </div>
+</section>
+<section class="award">
+<div class="container award-container">
+    <div class="award-left">
+        <div class="award-left-title">NEWSLETTER</div>
+        <div class="award-left-descript">Lorem ipsum dolor sit amet, consec adipiscing elit. Nunc vulputate </div>
+        <form class="award-left-form">
+            <input type="text" class="code" placeholder="">
+            <input type="text" class="code" placeholder="">
+        </form>
+        <button class="award-left-button">SUBSCRIBE</button>
+    </div>
+    <div class="award-right">
+        <div class="award-right-title">Award Winning </div>
+        <div class="award-right-decript">Lorem ipsum dolor sit amet, consec adipiscing elit. Nunc vulputate </div>
+        <div class="award-right-images">
+            <div class="award-right-images_items">
+                <img src="/image/a1.png">
+                <div class="items-text">
+                    <div class="images_items-title">Attractions</div>
+                    <div class="images_items-descript">Top 10 Attractions</div>
+                </div>
+            </div>
+               <div class="award-right-images_items">
+                <img src="/image/a2.png">
+                <div class="items-text">
+                    <div class="images_items-title">Hotels</div>
+                    <div class="images_items-descript">Top 10 Hotels</div>
+                </div>
+            </div>
+               <div class="award-right-images_items">
+                <img src="/image/a3.png">
+                <div class="items-text">
+                    <div class="images_items-title">Resorts</div>
+                    <div class="images_items-descript">Top 10 Resorts</div>
+                </div>
+            </div>
+               <div class="award-right-images_items">
+                <img src="/image/a4.png">
+                <div class="items-text">
+                    <div class="images_items-title">Landmarks</div>
+                    <div class="images_items-descript">Top 10 Landmarks</div>
+                </div>
+            </div>
+              <div class="award-right-images_items">
+                <img src="/image/a5.png">
+                <div class="items-text">
+                    <div class="images_items-title">Beaches</div>
+                    <div class="images_items-descript">Top 10 Beaches</div>
+                </div>
+            </div>
+              <div class="award-right-images_items">
+                <img src="/image/a6.png">
+                <div class="items-text">
+                    <div class="images_items-title">Islands</div>
+                    <div class="images_items-descript">Top 10 Islands</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<section class="looking"> 
+<div class=" container looking-container">
+    <div class="looking-title">Looking for an experience?</div>
+    <div class="looking-descript">Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit amet.</div>
+    <button class="looking-button">VIEW PACKAGES</button>
+</div>
+</section>
+<footer class="footer">
+<div class ="container footer_wrapper">
+    <div class="footer-star">
+        <svg width="215" height="158" viewBox="0 0 215 158" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g filter="url(#filter0_d_81_200)">
+            <path d="M107.19 0L131.549 57.0061H210.379L146.605 92.2378L170.964 149.244L107.19 114.012L43.4149 149.244L67.7746 92.2378L3.99995 57.0061H82.8298L107.19 0Z" fill="#007B83" />
+        </g>
+        <defs>
+            <filter id="filter0_d_81_200" x="0" y="0" width="214.379" height="157.244" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+            <feOffset dy="4" />
+            <feGaussianBlur stdDeviation="2" />
+            <feComposite in2="hardAlpha" operator="out" />
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_81_200" />
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_81_200" result="shape" />
+            </filter>
+        </defs>
+        </svg>
+        <div class="footer-star-description">Star Travels</div>    
+    </div>
+    <div class="footer-link">
+        <ul class="footer-list">
+            <li>Home</li>
+            <li>Packages</li>
+            <li>Tours</li>
+            <li>About Us</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <div class="footer-descript">Copyright 2023 | StarTravels.com | All Rights Reserved.</div>
+</div>
+</footer>
+</body>
+</html>
