@@ -320,12 +320,12 @@ body {
     margin-bottom: 53px;
 }
 
-.qustion-descript{
+.question-descript{
     display: flex;
     gap: 71px;
 }
 
-.qustion-descript-item{
+.question-descript-item{
     justify-content: center;
     text-align: center;
     display: flex;
