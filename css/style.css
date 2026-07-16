@@ -379,7 +379,7 @@ body {
     position: relative;
     width: 347px;
     height: 461px;
-    background-image: url(/image/vb.png);
+    background-image: url(../image/vb.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
