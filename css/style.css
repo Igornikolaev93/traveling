@@ -53,7 +53,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
   /*background: linear-gradient(180deg, #006994 0%, #00b4d8 30%, #48cae4 60%, #90e0ef 100%);*/
-    background-image: url(../image/backgrounds.png);
+    background-image: url(../image/ground.png);
     background-size: cover;
     background-repeat: no-repeat;
     color: #333;
